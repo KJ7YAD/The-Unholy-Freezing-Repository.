@@ -181,6 +181,7 @@ second_fun = [
     "Cutting Your Ears off",
     "Stabbing Your Eyes Out",
 ]
+print("FunnyNameMaker version 1.2. Added new format option, and possible options for names.")
 print("This a Python program written to make ridiculous names for anything you can think of. Your math book? The Galactic Math Book of Reno!")
 print("Your phone? It's the Evil Phone of Eat Your Face! Your Keyboard? The Annoying Keyboard of Wacking! The names get ridiculous!")
 print("Produces 100 names for you to pick from, so you don't have to rerun the code to find one you like.")
