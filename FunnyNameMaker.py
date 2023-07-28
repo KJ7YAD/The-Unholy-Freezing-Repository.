@@ -1,33 +1,42 @@
 import random
 from random import choice
 first_fun = [
-    "Holy Flamming",
+    "The Holy Flamming",
     "Giant Death",
+    "Venganceful",
     "Terrible",
-    "Unholy Freezing",
+    "The Crazy",
+    "The Unholy Freezing",
     "Anti-telaharsec",
     "Tiny",
+    "Fearless",
+    "Legendarly Enchanted",
     "Magic Flying",
     "Healing",
-    "Unholy"
+    "Unholy "
     "Screaming",
     "Vorpal",
+    "Anti-Matter",
+    "Delicous",
     "Laser-Powered",
     "Goblin-Smashing",
-    "Holy",
+    "The Holy",
     "Submersable",
     "Annoying",
     "Boring",
     "Singing",
     "Heavy Metal",
     "Glory",
+    "The "
     "Galactic",
-    "Astral",
+    "The Astral",
     "Golden",
+    "Horrific Screams of The Terror",
     "Evil",
     "Cosmic",
     "Thundering",
     "Laser",
+    "Solar Powered",
     "Amazing",
     "Immortal",
     "Giant",
@@ -47,26 +56,35 @@ first_fun = [
     "Magic",
     "Toy",
     "Invisible",
+    "Squeaky",
+    "Crystal",
+    "Robotic",
+    "Ancestral",
+    "Epic",
+    "Legend of the Astral",
 ]
 second_fun = [
     "Chili Peppers",
-    "Nevada",
+    "the Magic Land of Nevada",
     "Scratching People",
     "Bitterness",
     "Chasing Cats",
     "Sillyness",
     "Summoning Demons",
     "Reno",
+    "The Terrorvortex",
     "Fallon",
     "Fernley",
     "Smashing Goblins",
     "Thrashing Evil Wizards",
     "Chrushing Darklords",
-    "Fife",
-    "Dundee",
-    "Dunkeld",
-    "The River Tay",
+    "the Kingdom of Fife",
+    "the City of Dundee",
+    "the Town of Dunkeld",
+    "The Mighty River Tay",
     "Fighting Trolls",
+    "Slashing Through Goblins on "
+    "the Dark Side of The Moon",
     "Glory",
     "Justice",
     "Evil",
@@ -93,27 +111,62 @@ second_fun = [
     "Egg-Lofting",
     "Blowing Up The Death Star",
     "Making Things Go Kaboom",
+    "Falling over Laughing",
+    "Singing Stupid Songs",
+    "The Raging Storm",
+    "The Goblin King",
+    "The Keeper of The Stars",
+    "Annoying Me When I'm Trying to Work",
+    "The Master of Maddness",
+    "The Prince of Fife",
+    "The King of Chaos",
+    "The Lord of the Wizards",
+    "The Crystal Dragonfire",
+    "The Path of Dooooom",
+    "The Dark Prophecy",
+    "The King of Dragons",
+    "The King of Dundee",
     "Flame",
     "Silver Springs",
-    "Carson City",
+    "Furious Thunder",
+    "the Realm of Carson City",
     "Madness",
     "Cleaving Castles",
-    "Wacking",
-    "Lake Tahoe",
+    "Whacking",
+    "the Magic Lake Tahoe",
     "The Truckee River",
+    "the Kingdom of Calafonia",
+    "Salinas",
+    "Tulsa",
+    "Glasgow",
+    "Going Insane",
+    "Astra",
+    "Eating Peasants",
+    "Saturn",
+    "Venus",
+    "Jupiter",
+    "Mars",
+    "Earth",
+    "the Moon",
+    "Uranus",
+    "Nepune",
+    "Triton",
+    "Cutting Your Ears off",
+    "Stabbing Your Eyes Out",
 ]
 print("This a Python program written to make ridiculous names for anything you can think of. Your math book? The Galactic Math Book of Reno!")
 print("Your phone? It's the Evil Phone of Eat Your Face! Your Keyboard? The Annoying Keyboard of Wacking! The names get ridiculous!")
 print("Warning: there may or may not be small amounts of funny references in here. Use at your own risk.")
-word = input("what do you want a name for: ")
-start = choice(first_fun)
-end = choice(second_fun)
-the = random.randint(1, 3)
-if the == 1:
-    print("The {} {} of {}.".format(start, word, end))
-elif the == 2:
-    print("The {} {}.".format(start, word))
-elif the == 3:
-    print("The {} of {}.".format(word, end))
+word = input("What do you want a name for: ")
+for i in range(100):
+    start = choice(first_fun)
+    end = choice(second_fun)
+    the = random.randint(1, 3)
+    if the == 1:
+        print("{} {} of {}.".format(start, word, end))
+    elif the == 2:
+        print("{} {}.".format(start, word))
+    elif the == 3:
+        print("The {} of {}.".format(word, end))
 
 
