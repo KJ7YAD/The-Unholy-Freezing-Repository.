@@ -155,7 +155,7 @@ second_fun = [
     "Stabbing Your Eyes Out",
 ]
 print("This a Python program written to make ridiculous names for anything you can think of. Your math book? The Galactic Math Book of Reno!")
-print("Your phone? It's the Evil Phone of Eat Your Face! Your Keyboard? The Annoying Keyboard of Wacking! The names get ridiculous!")
+print("Your phone? It's the Evil Phone of Eat Your Face! Your Keyboard? The Annoying Keyboard of Whacking! The names get ridiculous!")
 print("Warning: there may or may not be small amounts of funny references in here. Use at your own risk.")
 word = input("What do you want a name for: ")
 for i in range(100):
